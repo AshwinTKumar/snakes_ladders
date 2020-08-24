@@ -16,3 +16,10 @@ To play game
 ```bash
 python game.py
 ```
+
+To run unit tests
+
+
+```bash
+python tests.py
+```
