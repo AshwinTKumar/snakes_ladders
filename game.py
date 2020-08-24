@@ -39,7 +39,7 @@ class SnakesLadders:
 
 if __name__ == "__main__":
     turn = 0
-    allowed_turns = 30
+    allowed_turns = 10
     board_step = 0
     input = raw_input("Let's play Snakes and Ladders !!")
     print("You have %s turns" % allowed_turns)
@@ -54,4 +54,4 @@ if __name__ == "__main__":
             input = raw_input("Throw the dice by pressing enter:")
             turn += 1
             board_step, message = SnakesLadders(dice_type).play(board_step=board_step)
-            print(message) if board_step < 100 else exit()
+            print(message)
